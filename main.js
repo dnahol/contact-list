@@ -44,7 +44,7 @@ function clickBtn(event) {
 //add info to col in display
 function displayInfo(info) {
 
-  var elem= $('.row-contacts').children().first().children().first().next();
+  var elem= $('.contacts').children().first().children().first().next();
   console.log("elem.text(): ", elem);
   elem.text('N: ' + info.firstName + info.lastName + '\nP: ' + info.phoneNumber +'\nA: ' + info.address + '\nE: ' + info.email);
 

@@ -1,0 +1,98 @@
+div {
+  border: 1px solid #000;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+input {
+  box-shadow: 3px 3px 5px lightblue;
+  border-radius: 15px;
+}
+
+.media:first-child {
+  margin-top: 15px;
+}
+.media{
+  box-shadow: 6px 6px 5px grey;
+}
+
+.fa-plus-circle {
+  font-size: 6em;
+  margin-top: -16px;
+}
+
+.add-bar {
+  padding: 0;
+  margin-top: 15px;
+}
+
+.media-object {
+  width: 80px;
+  height: 80px;
+}
+
+#contactForm {
+  padding-top: 10%;
+  padding-left: 10%;
+  padding-bottom: 2%;
+  font-size: 150%;
+  font-weight: bold;
+}
+
+#btn-id {
+  margin-left: 10%;
+  margin-bottom: 10%;
+  font-size: 175%;
+  font-weight: bold;
+  border-radius: 40px;
+  box-shadow: 6px 6px 5px grey;
+  background-color: lightblue;
+  color: #008798;
+}
+
+
+
+.add-bar {
+  border-radius: 10px;
+}
+
+.std-height {
+  height:100%;
+}
+
+.tool-height {
+  height:50px;
+}
+
+/*used this color scheme*/
+/*https://www.google.com/search?q=nice+color+combos&tbm=isch&imgil=CuWeSH06Q_irbM%253A%253BLfJPnG_h8Pn8dM%253Bhttp%25253A%25252F%25252Fwww.creativecolorschemes.com%25252Fresources%25252Ffree-color-schemes%25252Fbeautiful-color-scheme.shtml&source=iu&pf=m&fir=CuWeSH06Q_irbM%253A%252CLfJPnG_h8Pn8dM%252C_&usg=__VZkh-PEQhBb7z17LqMrqYM3hC3o%3D&biw=665&bih=604&dpr=2.5&ved=0ahUKEwicv8L6tI_MAhVY02MKHSe-AVYQyjcIKA&ei=XTkQV9ycFdimjwOn_IawBQ#tbm=isch&q=best+color+schemes+for+a+websites&imgrc=eScn-DdiVtE-bM%3A*/
+
+.black {
+  /*background-color: #161616;*/
+  background-color: skyblue;
+}
+
+.red {
+  background-color: #AFD687;
+}
+
+.green {
+  background-color: #00C3A9;
+}
+
+.blue {
+  background-color: #008798;
+}
+
+.contacts .media:nth-of-type(3n + 0) {
+  background-color: #AFD687;
+
+}
+
+.contacts .media:nth-of-type(3n + 1) {
+  background-color: #00C3A9;
+}
+
+.contacts .media:nth-of-type(3n + 2) {
+  background-color: #008798;
+}
